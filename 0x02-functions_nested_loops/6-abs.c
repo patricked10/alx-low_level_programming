@@ -4,12 +4,12 @@
  * @i: input number as an integer
  * Return: absolute value
  */
-int _abs(int i);
+int _abs(int a);
 {
-	if (i < 0)
-		i = -(i);
-	else if (i >= 0)
-		i = i;
+	if (a < 0)
+		a = -(a);
+	else if (a >= 0)
+		a = a;
 
-	return (i);
+	return (a);
 }
